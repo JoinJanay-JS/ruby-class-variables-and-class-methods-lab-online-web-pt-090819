@@ -5,5 +5,9 @@ class Song
     @@count 
   end 
   
-  @@genre = 
+  @@genre = []
+  def self.genre
+    @@genre 
+  end
+  
 end 
